@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="275" viewBox="0 0 1000 275" role="img" aria-label="Arav's development ecosystem">
+
+    <style>
+      :root { --ink:#252525; --muted:#777; --line:#d8d8d8; --panel:#f7f7f7; --accent:#555; }
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .eyebrow { fill:var(--muted); font-size:13px; letter-spacing:2px; }
+      .heading { fill:var(--ink); font-size:25px; font-weight:650; letter-spacing:.2px; }
+      .body { fill:var(--ink); font-size:16px; }
+      .small { fill:var(--muted); font-size:14px; }
+      .label { fill:var(--muted); font-size:12px; letter-spacing:1.5px; }
+      .rule { stroke:var(--line); stroke-width:1; stroke-dasharray:1000; stroke-dashoffset:1000; animation:drawLine 1.5s cubic-bezier(.6,0,.2,1) forwards; }
+@keyframes drawLine { to { stroke-dashoffset:0; } }
+      .panel { fill:var(--panel); stroke:var(--line); stroke-width:1; }
+      .accent { fill:var(--accent); }
+      @media (prefers-color-scheme: dark) {
+        :root { --ink:#e6e6e6; --muted:#929292; --line:#333; --panel:#111; --accent:#bdbdbd; }
+      }
+    </style>
+    
+<rect width="100%" height="100%" fill="transparent"/>
+
+<text x="28" y="27" class="eyebrow">SYSTEM MAP / LEARNING ECOSYSTEM</text>
+<rect x="375" y="72" width="250" height="76" rx="3" class="panel"/>
+<text x="500" y="101" text-anchor="middle" class="label">CORE</text>
+<text x="500" y="126" text-anchor="middle" class="heading" style="font-size:22px">Build · Learn · Ship</text>
+<g class="body">
+ <rect x="35" y="68" width="220" height="55" rx="3" class="panel"/><text x="145" y="91" text-anchor="middle" class="label">BACKEND</text><text x="145" y="111" text-anchor="middle" class="body">Python · Django · APIs</text>
+ <rect x="745" y="68" width="220" height="55" rx="3" class="panel"/><text x="855" y="91" text-anchor="middle" class="label">FRONTEND</text><text x="855" y="111" text-anchor="middle" class="body">JavaScript · React</text>
+ <rect x="35" y="165" width="220" height="55" rx="3" class="panel"/><text x="145" y="188" text-anchor="middle" class="label">DATA</text><text x="145" y="208" text-anchor="middle" class="body">PostgreSQL · MySQL</text>
+ <rect x="745" y="165" width="220" height="55" rx="3" class="panel"/><text x="855" y="188" text-anchor="middle" class="label">EXPLORING</text><text x="855" y="208" text-anchor="middle" class="body">AI / ML · Microservices</text>
+</g>
+<g class="rule" fill="none"><path d="M255 95 H375 M625 95 H745 M255 192 H315 V148 H375 M625 148 H685 V192 H745"/></g>
+<text x="500" y="251" text-anchor="middle" class="small">A connected toolkit — growing through projects and consistent practice.</text>
+
+</svg>

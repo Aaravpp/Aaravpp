@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="54" viewBox="0 0 1000 54" role="img" aria-label="06 — STACK">
+
+    <style>
+      :root { --ink:#252525; --muted:#777; --line:#d8d8d8; --panel:#f7f7f7; --accent:#555; }
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .eyebrow { fill:var(--muted); font-size:13px; letter-spacing:2px; }
+      .heading { fill:var(--ink); font-size:25px; font-weight:650; letter-spacing:.2px; }
+      .body { fill:var(--ink); font-size:16px; }
+      .small { fill:var(--muted); font-size:14px; }
+      .label { fill:var(--muted); font-size:12px; letter-spacing:1.5px; }
+      .rule { stroke:var(--line); stroke-width:1; stroke-dasharray:1000; stroke-dashoffset:1000; animation:drawLine 1.5s cubic-bezier(.6,0,.2,1) forwards; }
+@keyframes drawLine { to { stroke-dashoffset:0; } }
+      .panel { fill:var(--panel); stroke:var(--line); stroke-width:1; }
+      .accent { fill:var(--accent); }
+      @media (prefers-color-scheme: dark) {
+        :root { --ink:#e6e6e6; --muted:#929292; --line:#333; --panel:#111; --accent:#bdbdbd; }
+      }
+    </style>
+    
+<rect width="100%" height="100%" fill="transparent"/>
+
+    <text x="28" y="27" class="eyebrow">06 / STACK</text>
+    <path d="M28 42 H972" class="rule"/>
+    </svg>

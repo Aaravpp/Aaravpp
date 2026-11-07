@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="190" viewBox="0 0 500 190" role="img" aria-label="Most Used Languages">
+<rect width="500" height="190" rx="8" fill="#0d1117"/>
+<rect x="1" y="1" width="498" height="188" rx="8" fill="none" stroke="#30363d"/>
+<text x="24" y="34" fill="#e6edf3" font-family="Arial,sans-serif" font-size="18" font-weight="600">Most Used Languages</text>
+<path d="M24 49 H476" stroke="#30363d"/>
+<text x="24" y="88" fill="#8b949e" font-family="Arial,sans-serif" font-size="13">Waiting for the first automated language update</text>
+<text x="24" y="122" fill="#e6edf3" font-family="Arial,sans-serif" font-size="12">This card updates automatically after the profile workflow runs.</text>
+<text x="24" y="164" fill="#8b949e" font-family="Arial,sans-serif" font-size="11">github.com/Aaravpp</text>
+</svg>

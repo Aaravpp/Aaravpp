@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="110" viewBox="0 0 1000 110" role="img" aria-label="Technical stack and tools">
+
+    <style>
+      :root { --ink:#252525; --muted:#777; --line:#d8d8d8; --panel:#f7f7f7; --accent:#555; }
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .eyebrow { fill:var(--muted); font-size:13px; letter-spacing:2px; }
+      .heading { fill:var(--ink); font-size:25px; font-weight:650; }
+      .body { fill:var(--ink); font-size:16px; }
+      .small { fill:var(--muted); font-size:14px; }
+      .rule { stroke:var(--line); stroke-width:1; stroke-dasharray:1000; stroke-dashoffset:1000; animation:drawLine 1.5s cubic-bezier(.6,0,.2,1) forwards; }
+      @keyframes drawLine { to { stroke-dashoffset:0; } }
+      @media (prefers-color-scheme: dark) { :root { --ink:#e6e6e6; --muted:#929292; --line:#333; --panel:#111; --accent:#bdbdbd; } }
+    </style>
+    
+
+<text x="28" y="29" class="eyebrow">LANGUAGES / FRAMEWORKS / DATABASES / TOOLS</text>
+<text x="28" y="68" class="heading">Technical stack</text>
+<path d="M28 91 H972" class="rule"/>
+
+</svg>
