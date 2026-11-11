@@ -4,7 +4,7 @@
 <text x="24" y="34" fill="#e6edf3" font-family="Arial,sans-serif" font-size="18" font-weight="600">Most Used Languages</text>
 <path d="M24 49 H476" stroke="#30363d"/>
 <text x="26" y="82" fill="#8b949e" font-family="Arial,sans-serif" font-size="13">Python</text>
-<text x="474" y="82" text-anchor="end" fill="#e6edf3" font-family="Arial,sans-serif" font-size="14" font-weight="600">96.6%</text>
+<text x="474" y="82" text-anchor="end" fill="#e6edf3" font-family="Arial,sans-serif" font-size="14" font-weight="600">96.5%</text>
 <text x="26" y="111" fill="#8b949e" font-family="Arial,sans-serif" font-size="13">HTML</text>
 <text x="474" y="111" text-anchor="end" fill="#e6edf3" font-family="Arial,sans-serif" font-size="14" font-weight="600">1.3%</text>
 <text x="26" y="140" fill="#8b949e" font-family="Arial,sans-serif" font-size="13">JavaScript</text>
