@@ -37,13 +37,6 @@
   <img src="assets/top-languages-light.svg" alt="Most used languages" width="42%">
 </picture>
 
-### GitHub Contribution Stats
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contribution-stats-dark.svg">
-  <img src="assets/contribution-stats-light.svg" alt="Total contributions, current streak and longest streak" width="97%">
-</picture>
-
 ### Contribution Activity
 
 <picture>
